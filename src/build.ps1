@@ -1,0 +1,2 @@
+cl /std:c++17 /EHsc /O2 /DUNICODE /D_UNICODE /W3 main.cpp /link /SUBSYSTEM:WINDOWS /OUT:HotKeyManager.exe user32.lib gdi32.lib shell32.lib ole32.lib d2d1.lib dwrite.lib comdlg32.lib
+if ($LASTEXITCODE -eq 0) { Write-Host "OK" -ForegroundColor Green }

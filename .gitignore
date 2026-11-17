@@ -1,0 +1,8 @@
+﻿*.exe
+*.obj
+*.pdb
+*.ilk
+*.pch
+*.backup*
+.vs/
+.vscode/
